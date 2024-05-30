@@ -55,6 +55,7 @@ class Ffmpegsrt < Formula
       --enable-libfontconfig
       --disable-libjack
       --disable-indev=jack
+      --disable-htmlpages
     ]
 
     args << "--enable-libiec61883" if (build.with? "iec61883") && OS.linux?
