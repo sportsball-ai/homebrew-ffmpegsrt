@@ -55,6 +55,7 @@ class Ffmpegsrt < Formula
       --enable-libfontconfig
       --disable-libjack
       --disable-indev=jack
+      --disable-doc
       --disable-htmlpages
     ]
 
